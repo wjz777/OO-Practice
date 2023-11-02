@@ -4,6 +4,7 @@
     {
         private string name;
         private int speed;
+        private string engine_type;
 
         public Vehicle()
         {

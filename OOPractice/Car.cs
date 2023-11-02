@@ -15,5 +15,9 @@ namespace OOPractice
         public Car(string name, int speed) : base(name, speed)
         {
         }
+
+        public Car(IEngine engine) : base("Car", engine.Speed())
+        {
+        }
     }
 }

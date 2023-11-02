@@ -31,5 +31,13 @@ namespace OOPracticeTest
             Assert.Equal("Truck: speed up 11 km/h", truck_msg);
             Assert.Equal("Car: speed up 11 km/h", car_msg);
         }
+
+        [Fact]
+        public void Return_speed_message_when_given_engine()
+        {
+            var car = new Car(new GasolineEngine());
+
+            Assert.Equal("Truck: speed up 40 km/h", car.SpeedUp());
+        }
     }
 }
