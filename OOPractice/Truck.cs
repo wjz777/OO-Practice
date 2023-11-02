@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace OOPractice
 {
-    public class Car : Vehicle
+    public class Truck : Vehicle
     {
-        public Car()
+        public Truck()
         {
         }
 
-        public Car(string name, int speed) : base(name, speed)
+        public Truck(string name, int speed) : base(name, speed)
         {
         }
     }
